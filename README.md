@@ -20,7 +20,7 @@ $ python main.py
 pip install -r requirements.txt
 
 ## Features
-- Print 'Hello World'
+- Print 'hello'
 ```
 
 ## Credits
