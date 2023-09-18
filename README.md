@@ -22,3 +22,6 @@ pip install -r requirements.txt
 ## Features
 - Print 'Hello World'
 ```
+
+## Credits
+@JaeminKIM-Irene
