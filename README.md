@@ -18,10 +18,10 @@ $ python main.py
 
 ```shell
 pip install -r requirements.txt
+```
 
 ## Features
 - Print 'hello'
-```
 
 ## Credits
 @JaeminKIM-Irene
