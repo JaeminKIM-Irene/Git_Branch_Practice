@@ -1,0 +1,27 @@
+# By utilizing pyproject.toml, 
+# Python projects can maintain a standardized approach 
+# to configuration and dependency management, 
+# providing a consistent and predictable environment for developers and users alike.
+
+[tool.poetry]  # metadata about the project
+name = "counterfeit_trademark"
+version = "0.0.1"
+description = "Counterfeit_trademark"
+authors = ["Moon Project Team Members"]
+
+[tool.poetry.dependencies]  # the package's dependencies, including the required Python version
+python = ">=3.8,<3.11"
+pandas = "^1.5.3"
+numpy = "^1.23"
+scipy = "^1.10.0"
+scikit-learn = "^1.2.1"
+xgboost = "^1.7.2"
+pre-commit = "^3.0.4"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]  # development dependencies, such as testing libraries
+jupyter = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

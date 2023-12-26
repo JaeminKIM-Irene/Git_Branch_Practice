@@ -1,27 +1,21 @@
-# Git_Branch_Practice
+# counterfeit_trademark
 
-이 저장소는 Git Branch를 연습하기 위한 저장소 입니다.
+## 환경 관리
+### 01. 스크립트 설명
+- __init_dev_env.sh__
+  - 코드 개발 및 실행을 위한 패키지 설치 스크립트
+  - 파이썬 환경에서 <code>counterfeit_trademark/</code>에 구성 된 코드 로드 가능 ex\)
+    ```python
+    import counterfeit_trademark
+    ```
+    
 
-## Prerequisites
+### 02. 환경 설정 가이드
+- __최초 설정__
+  ```
+  <!-- init for Mac or Linux -->
+  $ source init_dev_env.sh
 
-- python==3.11.0
-
-## How to Start
-```shell
-$ git clone {username/repo_addr}
-$ cd {repo_addr}
-
-$ python main.py
-```
-
-## Installation 
-
-```shell
-pip install -r requirements.txt
-```
-
-## Features
-- Print 'hello'
-
-## Credits
-@JaeminKIM-Irene
+  <!-- init for Window -->
+  $ init_dev_env.bat
+  ```
