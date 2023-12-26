@@ -1,6 +1,19 @@
 from datetime import datetime, timedelta
 
 class DateTimeVerifier() :
+    """
+    Args:
+        input_date (datetime): datetime that user wants to verify
+
+    Attributes:
+        holidays (list): list of holiday dates in December
+        date (datetime): date extracted from input_date
+        time (datetime): time extracted from input_date
+
+    Methods:
+        isHoliday: Print whether input date is holiday or not
+        isAfternoon: Print whether input time is in Morning or Afternoon
+    """
 
     def __init__(self, input_date: datetime) -> None :
         self.holidays = ['2023-12-03','2023-12-10','2023-12-17','2023-12-24','2023-12-25','2023-12-31']
@@ -8,9 +21,10 @@ class DateTimeVerifier() :
         self.time = input_date.time()
 
     def isHoliday(self) -> None :
-        """
-        """
 
+        """
+        Print whether input date is holiday or not
+        """
         year = self.date.year
         month = self.date.month
         day = self.date.day
@@ -23,6 +37,7 @@ class DateTimeVerifier() :
 
     def isAfternoon(self) -> None:
         """
+        Print whether input time is in Morning or Afternoon
         """
 
         hour = self.time.hour
